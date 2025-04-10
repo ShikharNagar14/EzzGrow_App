@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "191044721467",
-    "project_id": "logging-project-28431",
-    "storage_bucket": "logging-project-28431.firebasestorage.app"
+    "project_number": "Your_project_number",         
+    "project_id": "Your_project_id",                
+    "storage_bucket": "your_project_id.appspot.com" 
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:191044721467:android:36db60e2291ae26fbab51e",
+        "mobilesdk_app_id": "your_mobilesdk_app_id", 
         "android_client_info": {
-          "package_name": "com.example.ezzgrow"
+          "package_name": "com.example.ezzgrow"    
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBcb-tuZSzRUQv0AC95uFriABXoai3ZT78"
+          "current_key": "your_google_api_key"      
         }
       ],
       "services": {
