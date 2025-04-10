@@ -1,15 +1,44 @@
+
+# --- Android build files ---
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea
+/.idea/*
+// caches and logs
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# --- Sign-in / Firebase sensitive files ---
+google-services.json
+serviceAccountKey.json
+firebase-debug.log
+*.keystore
+*.jks
+
+# --- Environment variables ---
+.env
+.env.local
+.env.production
+.env.*.local
+
+# --- OS & Editor specific ---
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.orig
+*.class
+
+# --- Kotlin specific ---
+*.kotlin_module
+*.jar
+
+
+
+
+
